@@ -8,13 +8,16 @@ package com.mycompany.modul3;
  *
  * @author Ratih
  */
+// Kelas Wheel merepresentasikan roda pada mobil
 public class Wheel {
-private int ukuran;
+private int ukuran; // Ukuran roda dalam inci
     
+    // Setter untuk ukuran roda
     public void setUkuran(int ukuran) {
         this.ukuran = ukuran;
     }
     
+    // Getter untuk ukuran roda
     public int getUkuran() {
         return this.ukuran;
     }    
