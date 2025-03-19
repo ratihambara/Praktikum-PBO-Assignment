@@ -31,6 +31,8 @@ DiagnosisCounter ini juga merupakan utility class untuk menghitung jumlah diagno
 1. countDiagnoses(List<Patient> patients) : untuk mengembalikan map diagnosis dengan jumlah kemunculan masing-masing diagnosis.
 2. Menggunakan map agar menyimpan data diagnosis sebagai key dan jumlahnya sebagai value, yang dapat dikembalikan.
 
+
+
 Untuk kelas Doctor, Patient, dan Appointment menggunakan getter dan setter untuk dapat mengakses private field dengan lebih aman. Hasil dari testing kelas ini adalah
 1. Menampilkan hasil cek kelengkapan data dokter, pasien, dan appointment dengan boolean true/false
 2. Menampilkan daftar diagnosis dan jumlah diagnosis yang ditemukan dalam daftar pasien.
